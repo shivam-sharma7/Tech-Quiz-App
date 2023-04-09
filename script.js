@@ -68,7 +68,7 @@ const quizData = [
         question: 'Who is founder of facebook?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
-        c: 'jack Dursey',
+        c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'b'
      },
@@ -78,7 +78,7 @@ const quizData = [
         question: 'Who is founder of Google?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
-        c: 'jack Dursey',
+        c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'd'
      },
@@ -88,7 +88,7 @@ const quizData = [
         question: 'Who is founder of Tesla?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
-        c: 'jack Dursey',
+        c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'a'
      },
@@ -115,6 +115,7 @@ const quizData = [
 
 
 ];
+
 
 const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer');
@@ -185,9 +186,9 @@ if (answer) {
         loadQuiz();
     } else {
         quiz.innerHTML = `
-            <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
+            <h2>Congratulation 🎉 you answered correctly at ${score}/${quizData.length} questions.</h2>
             
-            <button  onclick="location.reload()">Reload</button>`;
+            <button onclick="location.reload()">Reload</button>`;
     }
 }
 });
