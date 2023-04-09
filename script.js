@@ -46,11 +46,11 @@ const quizData = [
     {
 
         question: 'which is best fron-end framework in 2023?',
-        b: 'Angular',
         a: 'React',
+        b: 'Angular',
         c: 'Vue',
         d: `jQuery`,
-        correct: 'b'
+        correct: 'a'
     },
 
      {
@@ -58,7 +58,7 @@ const quizData = [
         question: 'Who is founder of Twitter?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
-        c: 'jack Dursey',
+        c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'c'
      },
@@ -95,13 +95,22 @@ const quizData = [
 
      {
 
-        question: 'Who invented Java in?',
+        question: 'Who invented Java?',
         a: 'James Gosling',
         b: 'Brendan Eich',
         c: 'jack Dursey',
         d: 'Larry Page',
         correct: 'a'
-     }
+     },
+   {
+
+     question: 'Did Java invented in?',
+     a: '1972',
+     b: '1978',
+     c: '1995',
+     d: '2000',
+     correct: 'c'
+  }
 
 
 
