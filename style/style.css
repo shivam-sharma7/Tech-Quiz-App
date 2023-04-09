@@ -33,7 +33,13 @@ body{
 .list{
  
     list-style-type: none;
+    font-weight: bold;
     padding: 0;
+}
+
+.list li{
+    font-size: 1.1rem;
+    margin: 1rem 0;
 }
 
 .btn{
@@ -46,5 +52,11 @@ body{
     font-family: inherit;
     width: 100%;
     padding: 1.3rem;
+    opacity: 1;
      
+}
+
+.btn:hover{
+   
+    background-color: rgb(62, 121, 198);
 }

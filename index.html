@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
+    <script src="script.js" defer></script>
     <title>Quiz App</title>
 </head>
 <body>
 
     <div class="Quiz-container">
         <div class="quiz-header"> 
-       <h2>Question text</h2>
+       <h2 id="question">Question text</h2>
        <ul class="list">
         <li>
             <input 
@@ -20,7 +21,7 @@
              id="a"
              name="answer" />
 
-            <label for="a">Question</label>
+            <label id="a_text" for="a">Question</label>
         </li>
 
         <li>
@@ -28,25 +29,25 @@
              type="radio"
              id="b"
              name="answer" />
-            <label for="b">Question</label>
+            <label id="b_text" for="b">Question</label>
         </li>
         <li>
             <input type="radio"
              id="c"
              name="answer" />
-            <label for="c">Question</label>
+            <label id="c_text" for="c">Question</label>
         </li>
         <li>
             <input 
               type="radio"
               id="d" 
               name="answer" />
-            <label for="d">Question</label>
+            <label id="d_text" for="d">Question</label>
         </li>
         
        </ul>
     </div>
-    <button class="btn" >Submit</button>
+    <button class="btn" id="submit">Submit</button>
 </div>
 </body>
 </html>

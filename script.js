@@ -7,7 +7,6 @@ const quizData = [
         c: '20',
         d: '25',
         correct: 'c'
-
     },
 
     {
@@ -72,4 +71,35 @@ const quizData = [
         d: 'Larry Page',
         correct: 'c'
      }
-]
+];
+
+const questionE1 = document.getElementById('question');
+
+ const a_text = document.getElementById('a_text');
+ const b_text = document.getElementById('b_text');
+ const c_text = document.getElementById('c_text');
+ const d_text = document.getElementById('d_text');
+ const submitBtn = document.getElementById('submit');
+
+let currentQuiz = 0;
+
+const loadQuiz = () => {
+    const currentQuizData = quizData[currentQuiz];
+
+    questionE1.innerText = currentQuizData.question;
+
+    a_text.innerText = currentQuizData.a;
+    b_text.innerText = currentQuizData.b;
+    c_text.innerText = currentQuizData.c;
+    d_text.innerText = currentQuizData.d;
+ 
+}
+
+loadQuiz();
+
+submitBtn.addEventListener('click', () =>{
+    currentQuiz++;
+
+    loadQuiz();
+
+});
