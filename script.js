@@ -2,7 +2,7 @@ const quizData = [
    
     {
 
-        question: 'which is best Programming language for beginner?',
+        question: '1. which is best Programming language for beginner?',
         a: 'C/C++',
         b: 'Java',
         c: 'Python',
@@ -13,7 +13,7 @@ const quizData = [
 
     {
 
-        question: 'What is best programming language in 2023?',
+        question: '2. What is best programming language in 2023?',
         a: 'C/C++',
         b: 'Java',
         c: 'Python',
@@ -23,7 +23,7 @@ const quizData = [
 
     {
 
-        question: 'what is HTML?',
+        question: '3. what is HTML?',
         a: 'A Programming language',
         b: 'API',
         c: 'Hypertext Markup Language',
@@ -34,7 +34,7 @@ const quizData = [
 
     {
       
-        question: 'Which tech use to create a website?',
+        question: '4. Which tech use to create a website?',
         a: 'Web Development',
         b: 'DevOps',
         c: 'Machine Learning',
@@ -45,7 +45,7 @@ const quizData = [
 
     {
 
-        question: 'which is best fron-end framework in 2023?',
+        question: '5. which is best fron-end framework in 2023?',
         a: 'React',
         b: 'Angular',
         c: 'Vue',
@@ -55,7 +55,7 @@ const quizData = [
 
      {
 
-        question: 'Who is founder of Twitter?',
+        question: '6. Who is founder of Twitter?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
         c: 'Jack Dursey',
@@ -65,7 +65,7 @@ const quizData = [
 
      {
 
-        question: 'Who is founder of facebook?',
+        question: '7. Who is founder of facebook?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
         c: 'Jack Dursey',
@@ -75,7 +75,7 @@ const quizData = [
 
      {
 
-        question: 'Who is founder of Google?',
+        question: '8. Who is founder of Google?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
         c: 'Jack Dursey',
@@ -85,7 +85,7 @@ const quizData = [
 
      {
 
-        question: 'Who is founder of Tesla?',
+        question: '9. Who is founder of Tesla?',
         a: 'Elon Musk',
         b: 'Mark Zuckerburge',
         c: 'Jack Dursey',
@@ -95,7 +95,7 @@ const quizData = [
 
      {
 
-        question: 'Who invented Java?',
+        question: '10. Who invented Java?',
         a: 'James Gosling',
         b: 'Brendan Eich',
         c: 'jack Dursey',
@@ -104,7 +104,7 @@ const quizData = [
      },
    {
 
-     question: 'Did Java invented in?',
+     question: '11. Did Java invented in?',
      a: '1972',
      b: '1978',
      c: '1995',
