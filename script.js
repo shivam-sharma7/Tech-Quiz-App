@@ -1,14 +1,5 @@
 const quizData = [
-    {
-
-        question: 'How old you are?',
-        a: '18',
-        b: '21',
-        c: '20',
-        d: '25',
-        correct: 'c'
-    },
-
+   
     {
 
         question: 'which is best Programming language for beginner?',
@@ -18,6 +9,16 @@ const quizData = [
         d: 'Javascript',
         correct: 'c'
 
+    },
+
+    {
+
+        question: 'What is best programming language in 2023?',
+        a: 'C/C++',
+        b: 'Java',
+        c: 'Python',
+        d: 'Javascript',
+        correct: 'd'
     },
 
     {
@@ -44,16 +45,6 @@ const quizData = [
 
     {
 
-        question: 'What is best programming language in 2023?',
-        a: 'C/C++',
-        b: 'Java',
-        c: 'Python',
-        d: 'Javascript',
-        correct: 'd'
-    },
-
-    {
-
         question: 'which is best fron-end framework in 2023?',
         b: 'Angular',
         a: 'React',
@@ -70,7 +61,50 @@ const quizData = [
         c: 'jack Dursey',
         d: 'Larry Page',
         correct: 'c'
+     },
+
+     {
+
+        question: 'Who is founder of facebook?',
+        a: 'Elon Musk',
+        b: 'Mark Zuckerburge',
+        c: 'jack Dursey',
+        d: 'Larry Page',
+        correct: 'b'
+     },
+
+     {
+
+        question: 'Who is founder of Google?',
+        a: 'Elon Musk',
+        b: 'Mark Zuckerburge',
+        c: 'jack Dursey',
+        d: 'Larry Page',
+        correct: 'd'
+     },
+
+     {
+
+        question: 'Who is founder of Tesla?',
+        a: 'Elon Musk',
+        b: 'Mark Zuckerburge',
+        c: 'jack Dursey',
+        d: 'Larry Page',
+        correct: 'a'
+     },
+
+     {
+
+        question: 'Who invented Java in?',
+        a: 'James Gosling',
+        b: 'Brendan Eich',
+        c: 'jack Dursey',
+        d: 'Larry Page',
+        correct: 'a'
      }
+
+
+
 ];
 
 const quiz = document.getElementById('quiz')
