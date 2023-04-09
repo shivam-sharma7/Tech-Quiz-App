@@ -75,7 +75,6 @@ h2{
 
     .btn{
 
-        background-color: #52b866;
         color: white;
         border: none;
         display: block;
@@ -89,12 +88,9 @@ h2{
 
     h2{
         
-        color: green;
-        display: flex;
-        justify-content: center;
         padding: 1rem;
         text-align: center;
-        margin: 10px;
+        margin: 0;
     }
     
 }
