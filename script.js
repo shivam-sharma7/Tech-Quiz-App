@@ -144,7 +144,7 @@ if (answer) {
         quiz.innerHTML = `
             <h2>You answered correctly at ${score}/${quizData.length} questions.</h2>
             
-            <button onclick="location.reload()">Reload</button>`;
+            <button  onclick="location.reload()">Reload</button>`;
     }
 }
 });
