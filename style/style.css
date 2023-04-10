@@ -75,6 +75,20 @@ h2{
 
 @media (max-width: 500px) {
 
+
+    .Quiz-container{
+
+        background-color: #d2fccf;
+        border: 10px ;
+        border-radius: 0 0 8px rgba(100, 1000, 100, 0.1);
+        overflow: hidden;
+        width: 90%;
+        margin-top: 15px 10px;
+        /* max-width: 80%; */
+
+    }
+ 
+
     .btn{
 
         color: white;
