@@ -1,5 +1,5 @@
 const quizData = [
-   
+
     {
 
         question: '1. which is best Programming language for beginner?',
@@ -33,7 +33,7 @@ const quizData = [
     },
 
     {
-      
+
         question: '4. Which tech use to create a website?',
         a: 'Web Development',
         b: 'DevOps',
@@ -53,7 +53,7 @@ const quizData = [
         correct: 'a'
     },
 
-     {
+    {
 
         question: '6. Who is founder of Twitter?',
         a: 'Elon Musk',
@@ -61,9 +61,9 @@ const quizData = [
         c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'c'
-     },
+    },
 
-     {
+    {
 
         question: '7. Who is founder of facebook?',
         a: 'Elon Musk',
@@ -71,9 +71,9 @@ const quizData = [
         c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'b'
-     },
+    },
 
-     {
+    {
 
         question: '8. Who is founder of Google?',
         a: 'Elon Musk',
@@ -81,9 +81,9 @@ const quizData = [
         c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'd'
-     },
+    },
 
-     {
+    {
 
         question: '9. Who is founder of Tesla?',
         a: 'Elon Musk',
@@ -91,9 +91,9 @@ const quizData = [
         c: 'Jack Dursey',
         d: 'Larry Page',
         correct: 'a'
-     },
+    },
 
-     {
+    {
 
         question: '10. Who invented Java?',
         a: 'James Gosling',
@@ -101,16 +101,25 @@ const quizData = [
         c: 'jack Dursey',
         d: 'Larry Page',
         correct: 'a'
-     },
-   {
+    },
+    {
 
-     question: '11. Did Java invented in?',
-     a: '1972',
-     b: '1978',
-     c: '1995',
-     d: '2000',
-     correct: 'c'
-  }
+        question: '11. Did Java invented in?',
+        a: '1972',
+        b: '1978',
+        c: '1995',
+        d: '2000',
+        correct: 'c'
+    },
+
+    {
+        question: 'OS computer abbreviation usually means?',
+        a:'Order of Significance',
+        b:'Open Software',
+        c:'Operating System',
+        d:'Optical Sensor',
+        correct: 'c'
+    }
 
 
 
@@ -130,65 +139,65 @@ const submitBtn = document.getElementById('submit');
 let currentQuiz = 0;
 let score = 0;
 
-const deselectAns = () =>{
+const deselectAns = () => {
 
-    answerEls.forEach((answerEl) =>{
-      answerEl.checked = false;
+    answerEls.forEach((answerEl) => {
+        answerEl.checked = false;
     });
- 
+
 }
 
- 
+
 const loadQuiz = () => {
 
     deselectAns();
-    
+
     const currentQuizData = quizData[currentQuiz];
-    
+
     questionE1.innerText = currentQuizData.question;
 
     a_text.innerText = currentQuizData.a;
     b_text.innerText = currentQuizData.b;
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
- 
+
 }
 
 loadQuiz();
 
- 
-const getSelect = () =>{
-       
+
+const getSelect = () => {
+
     let answer = undefined;
 
-    answerEls.forEach((answerEl) =>{
-         
-        if(answerEl.checked){
-            answer =  answerEl.id;
+    answerEls.forEach((answerEl) => {
+
+        if (answerEl.checked) {
+            answer = answerEl.id;
         }
     });
 
     return answer;
 };
 
- 
-submitBtn.addEventListener('click', () =>{
-// check to see ans
-const answer = getSelect();
 
-if (answer) {
-    if (answer === quizData[currentQuiz].correct) {
-        score++;
-    }
+submitBtn.addEventListener('click', () => {
+    // check to see ans
+    const answer = getSelect();
 
-    currentQuiz++;
-    if (currentQuiz < quizData.length) {
-        loadQuiz();
-    } else {
-        quiz.innerHTML = `
+    if (answer) {
+        if (answer === quizData[currentQuiz].correct) {
+            score++;
+        }
+
+        currentQuiz++;
+        if (currentQuiz < quizData.length) {
+            loadQuiz();
+        } else {
+            quiz.innerHTML = `
             <h2>Congratulation 🎉 you answered correctly at ${score}/${quizData.length} questions.</h2>
             
             <button onclick="location.reload()">Reload</button>`;
+        }
     }
-}
 });
