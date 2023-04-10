@@ -52,6 +52,11 @@ h2{
     margin: 1rem 0;
 }
 
+input[type=radio] {
+     
+    margin-left: 30px;
+}
+
 .btn{
 
     background-color: #8e44ad;
