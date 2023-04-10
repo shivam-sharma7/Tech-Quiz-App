@@ -15,17 +15,17 @@ body{
      
 }
 
-.Quiz-container{
+/* .Quiz-container{
 
-    background-color: #fff;
+    background-color: #d2fccf;
     border: 10px ;
     border-radius: 0 0 8px rgba(100, 1000, 100, 0.1);
     overflow: hidden;
     width: 600px;
     max-width: 100%;
+     
+} */
 
-    
-}
 .quiz-header{
 
     padding: 4.4rem;
@@ -63,6 +63,7 @@ h2{
     width: 100%;
     padding: 1.3rem;
     opacity: 1;
+    
      
 }
 
@@ -83,6 +84,7 @@ h2{
         font-family: inherit;
         width: 100%;
         opacity: 1;
+        margin-bottom: 10;
          
          
     }
