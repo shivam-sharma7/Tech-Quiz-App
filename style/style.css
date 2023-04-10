@@ -15,7 +15,7 @@ body{
      
 }
 
-/* .Quiz-container{
+.Quiz-container{
 
     background-color: #d2fccf;
     border: 10px ;
@@ -24,7 +24,7 @@ body{
     width: 600px;
     max-width: 100%;
      
-} */
+}
 
 .quiz-header{
 
@@ -57,12 +57,12 @@ h2{
     background-color: #8e44ad;
     color: white;
     border: none;
-    display: block;
     font-size: 1.5rem;
     font-family: inherit;
     width: 100%;
     padding: 1.3rem;
     opacity: 1;
+    /* display: block; */
     
      
 }
@@ -79,12 +79,12 @@ h2{
 
         color: white;
         border: none;
-        display: block;
         font-size: 1.5rem;
         font-family: inherit;
         width: 100%;
         opacity: 1;
         margin-bottom: 10;
+        /* display: block; */
          
          
     }
