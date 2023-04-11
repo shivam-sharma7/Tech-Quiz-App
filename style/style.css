@@ -15,6 +15,22 @@ body{
      
 }
 
+h1{
+    
+    margin: 5px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    color: #a30ae4;
+    text-decoration: underline;
+}
+
+#question{
+
+    padding-top: 1px;
+    font-size: 1.2rem;
+}
+
 .Quiz-container{
 
     background-color: #d2fccf;
@@ -86,9 +102,11 @@ input[type=radio] {
         background-color: #d2fccf;
         border: 10px ;
         border-radius: 0 0 8px rgba(100, 1000, 100, 0.1);
+         font-size: 13px;
         overflow: hidden;
         width: 90%;
         margin-top: 15px 10px;
+        cursor: pointer;
         /* max-width: 80%; */
 
     }
@@ -106,6 +124,11 @@ input[type=radio] {
         /* display: block; */
          
          
+    }
+
+    .btn:hover{
+   
+        background-color: rgb(228, 106, 40);
     }
 
     h2{
