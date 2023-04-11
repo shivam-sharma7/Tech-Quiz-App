@@ -2,7 +2,7 @@ const quizData = [
 
     {
 
-        question:'1. which is best Programming language for beginner?',
+        question:'1. Which is best Programming language for beginners?',
         a: 'C/C++',
         b: 'Java',
         c: 'Python',
@@ -23,7 +23,7 @@ const quizData = [
 
     {
 
-        question:'3. what is HTML?',
+        question:'3. What is HTML?',
         a: 'A Programming language',
         b: 'API',
         c: 'Hypertext Markup Language',
@@ -45,7 +45,7 @@ const quizData = [
 
     {
 
-        question:'5. which is the best front-end framework in 2023?',
+        question:'5. Which is the best front-end framework in 2023?',
         a: 'React',
         b: 'Angular',
         c: 'Vue',
@@ -95,7 +95,37 @@ const quizData = [
 
     {
 
-        question:'10. Who invented Java?',
+        question:'10. Who is founder of Apple?',
+        a: 'Stev Jobs',
+        b: 'Mark Zuckerburge',
+        c: 'Jack Dursey',
+        d: 'Larry Page',
+        correct: 'a'
+    },
+
+    {
+
+        question:'11. Who is founder of Tata?',
+        a: 'Gautam Adani',
+        b: 'Ratan Tata',
+        c: 'Mukesh Ambani',
+        d: 'Anil Ambani',
+        correct: 'b'
+    },
+
+    {
+
+        question:'12. Who is founder of ?',
+        a: 'Elon Musk',
+        b: 'Mark Zuckerburge',
+        c: 'Jack Dursey',
+        d: 'Larry Page',
+        correct: 'a'
+    },
+
+    {
+
+        question:'13. Who invented Java?',
         a: 'James Gosling',
         b: 'Brendan Eich',
         c: 'jack Dursey',
@@ -104,7 +134,7 @@ const quizData = [
     },
     {
 
-        question:'11. Did Java invented in?',
+        question:'14. Did Java invented in?',
         a: '1972',
         b: '1978',
         c: '1995',
@@ -113,7 +143,7 @@ const quizData = [
     },
 
     {
-        question: 'OS computer abbreviation usually means?',
+        question: '15. OS computer abbreviation usually means?',
         a:'Order of Significance',
         b:'Open Software',
         c:'Operating System',
@@ -125,7 +155,7 @@ const quizData = [
 
 ];
 
-
+ 
 const quiz = document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer');
 const questionE1 = document.getElementById('question');
@@ -191,9 +221,11 @@ submitBtn.addEventListener('click', () => {
         }
 
         currentQuiz++;
+
         if (currentQuiz < quizData.length) {
             loadQuiz();
         } else {
+             
             quiz.innerHTML = `
             <h2>Congratulation 🎉 you answered correctly at ${score}/${quizData.length} questions.</h2>
             <button onclick="location.reload()">Reload</button>`;
