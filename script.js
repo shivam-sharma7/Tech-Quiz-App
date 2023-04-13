@@ -115,12 +115,12 @@ const quizData = [
 
     {
 
-        question:'12. Who is founder of ?',
-        a: 'Elon Musk',
-        b: 'Mark Zuckerburge',
-        c: 'Jack Dursey',
-        d: 'Larry Page',
-        correct: 'a'
+        question:'12. Who is founder of Jio?',
+        a: 'Gautam Adani',
+        b: 'Ratan Tata',
+        c: 'Anil Ambani',
+        d: 'Mukesh Ambani',
+        correct: 'd'
     },
 
     {
@@ -218,6 +218,8 @@ submitBtn.addEventListener('click', () => {
     if (answer) {
         if (answer === quizData[currentQuiz].correct) {
             score++;
+        } else if(answer != quizData[currentQuiz].correct){
+            score--;
         }
 
         currentQuiz++;
