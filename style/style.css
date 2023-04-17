@@ -28,7 +28,7 @@ h1{
 #question{
 
     padding-top: 1px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .Quiz-container{
@@ -75,7 +75,7 @@ input[type=radio] {
 
 .btn{
 
-    background-color: #8e44ad;
+    background-color: #861fb3;
     color: white;
     border: none;
     font-size: 1.5rem;
@@ -95,7 +95,11 @@ input[type=radio] {
 
 
 @media (max-width: 500px) {
+   
+    #question{
 
+        font-size: 1.1rem;
+    }
 
     .Quiz-container{
 
@@ -129,6 +133,11 @@ input[type=radio] {
     .btn:hover{
    
         background-color: rgb(228, 106, 40);
+    }
+
+    h1{
+       
+        text-decoration: none;
     }
 
     h2{
