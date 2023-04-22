@@ -132,6 +132,7 @@ const quizData = [
         d: 'Larry Page',
         correct: 'a'
     },
+
     {
 
         question:'14. Did Java invented in?',
@@ -143,12 +144,31 @@ const quizData = [
     },
 
     {
+
+        question:'13. Who invented Windows?',
+        a: 'James Gosling',
+        b: 'Bill Gates',
+        c: 'jack Dursey',
+        d: 'Larry Page',
+        correct: 'b'
+    },
+
+    {
         question: '15. OS computer abbreviation usually means?',
         a:'Order of Significance',
         b:'Open Software',
         c:'Operating System',
         d:'Optical Sensor',
         correct: 'c'
+    },
+
+    {
+        question: '15. Is Windows 11 operating system?',
+        a:'Yes',
+        b:'No',
+        c:'Maybe',
+        d:'a and b',
+        correct: 'a'
     }
 
 
