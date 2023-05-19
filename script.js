@@ -169,6 +169,17 @@ const quizData = [
         c:'Maybe',
         d:'a and b',
         correct: 'a'
+    },
+
+    {
+
+        question: 'In computer RAM is a?',
+        a: 'Memory',
+        b: 'name',
+        c: 'proccessor',
+        d: 'core',
+        currect: 'a'
+
     }
 
 
